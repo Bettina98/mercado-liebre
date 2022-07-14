@@ -1,0 +1,17 @@
+:root {
+    --ColorAmarillo: #eac926;
+    --ColorAzul: #03264C;
+    --ColorCeleste: #1259c3;
+    --ColorGrisOscuro: #666;
+    --ColorGrisClaro: #ebebeb;
+    --ColorVerde: #39b54a;
+
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+h3 {
+    font-size: 16px;
+}
