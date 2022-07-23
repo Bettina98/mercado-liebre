@@ -6,19 +6,20 @@
     margin: 25px 0 10px 30px;
 }
 
-.home__header__buscador form {
-    margin-left: 35px;
+.home__header__buscador {
+    margin-left: 20px;
 }
 
-.home__header__buscador__button--search {
+.home__header__buscador button {
     display: block;
     margin-left: 15px 0 0 15px;
-    width: 25px;
-    height: 22px;
+    width: 20px;
+    height: 18px;
+    font-size: 15px;
+    text-align: right; 
 }
 
-.home__header__buscador__button--hand button {
-    display: inline-block;
+.home__header__buscador__button--hand {
     text-align: center;
 }
 
@@ -31,7 +32,6 @@
 
 .home__header__menu ul li {
     margin-left: -35px;
-    color: black;
     font-size: 12px;
 }
 
@@ -39,9 +39,26 @@
     text-align: center;
 }
 
+.burger-menu button {
+    width: 35px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    background: var(--ColorCeleste);
+    margin-bottom: 20px
+}
+
 /* HOME MAIN */
 .home__main h2 {
     font-size: 24px;
+}
+
+.home__main__section__visita {
+    background-color: var(--ColorGrisClaro);
+}
+
+.home__main__section__visita__article {
+    text-align: center;
 }
 
 .home__main__section__visita__article__precio {
@@ -50,6 +67,14 @@
 
 .home__main__section__visita__article__descuento {
     font-size: 16px;
+}
+
+.home__main__section__oferta {
+    background-color: var(--ColorGrisClaro);
+}
+
+.home__main__section__oferta__article {
+    text-align: center;
 }
 
 .home__main__section__oferta__article__precio {
@@ -65,12 +90,12 @@
     text-align: center;
     font-size: 12px;
     color: var(--ColorGrisOscuro);
+    margin-top: 50px;
 }
 
-.home__main__footer button {
-    margin-top: 15px;
-    width: 40px;
-    height: 30px;
+.home__main__footer i {
+    font-size: 30px;
+    color: var(--ColorCeleste);
 }
 
 .home__main__footer h3 {
