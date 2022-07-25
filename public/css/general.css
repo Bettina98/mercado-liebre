@@ -8,12 +8,23 @@
 
 }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto';
 }
 
+h2 {
+    color: var(--ColorGrisOscuro);
+}
+
 h3 {
     font-size: 16px;
+    margin-top: 20px;
+    color: var(--ColorGrisOscuro);
 }
 
 a {
